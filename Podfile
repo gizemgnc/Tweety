@@ -7,6 +7,10 @@ target 'Tweety' do
 
   # Pods for Tweety
 	pod 'Alamofire', '~> 5.0.0-beta.5'
+	pod 'Kingfisher', '~> 4.0'
+	pod 'KeychainSwift', '~> 16.0'
+	pod 'TwitterKit'
+	
 	
 
 end
