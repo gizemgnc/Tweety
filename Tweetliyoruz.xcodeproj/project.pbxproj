@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		035BF7E23DCFD1DD515FB056 /* Pods_Tweety.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tweety.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C61D8FD9572BA876862F8A /* Pods-Tweety.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tweety.debug.xcconfig"; path = "Target Support Files/Pods-Tweety/Pods-Tweety.debug.xcconfig"; sourceTree = "<group>"; };
-		AF7D49A8231EE6B200B53D73 /* Tweety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweety.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7D49A8231EE6B200B53D73 /* Tweetliyoruz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tweetliyoruz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7D49AB231EE6B200B53D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF7D49AD231EE6B200B53D73 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF7D49B0231EE6B200B53D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AuthFlow.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		AF7D49A9231EE6B200B53D73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF7D49A8231EE6B200B53D73 /* Tweety.app */,
+				AF7D49A8231EE6B200B53D73 /* Tweetliyoruz.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,16 +117,15 @@
 				73C61D8FD9572BA876862F8A /* Pods-Tweety.debug.xcconfig */,
 				F99CFFC0E67EF0E0980760EB /* Pods-Tweety.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF7D49A7231EE6B200B53D73 /* Tweety */ = {
+		AF7D49A7231EE6B200B53D73 /* Tweetliyoruz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF7D49BA231EE6B400B53D73 /* Build configuration list for PBXNativeTarget "Tweety" */;
+			buildConfigurationList = AF7D49BA231EE6B400B53D73 /* Build configuration list for PBXNativeTarget "Tweetliyoruz" */;
 			buildPhases = (
 				0952D0DA200469A4E6F91EA0 /* [CP] Check Pods Manifest.lock */,
 				AF7D49A4231EE6B200B53D73 /* Sources */,
@@ -139,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = Tweety;
-			productName = Tweety;
-			productReference = AF7D49A8231EE6B200B53D73 /* Tweety.app */;
+			name = Tweetliyoruz;
+			productName = Tweetliyoruz;
+			productReference = AF7D49A8231EE6B200B53D73 /* Tweetliyoruz.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF7D49A7231EE6B200B53D73 /* Tweety */,
+				AF7D49A7231EE6B200B53D73 /* Tweetliyoruz */,
 			);
 		};
 /* End PBXProject section */
@@ -402,12 +401,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tweety/Info.plist;
+				DEVELOPMENT_TEAM = M9437KP6T5;
+				INFOPLIST_FILE = "$(SRCROOT)/Tweety/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tweety;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goh.Tweetliyoruz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -420,12 +420,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Tweety/Info.plist;
+				DEVELOPMENT_TEAM = M9437KP6T5;
+				INFOPLIST_FILE = "$(SRCROOT)/Tweety/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Tweety;
+				PRODUCT_BUNDLE_IDENTIFIER = com.goh.Tweetliyoruz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,7 +445,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF7D49BA231EE6B400B53D73 /* Build configuration list for PBXNativeTarget "Tweety" */ = {
+		AF7D49BA231EE6B400B53D73 /* Build configuration list for PBXNativeTarget "Tweetliyoruz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF7D49BB231EE6B400B53D73 /* Debug */,
