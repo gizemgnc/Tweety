@@ -51,7 +51,7 @@
 		AF7D499F231EE6B200B53D73 = {
 			isa = PBXGroup;
 			children = (
-				AF7D49AA231EE6B200B53D73 /* Tweety */,
+				AF7D49AA231EE6B200B53D73 /* Tweetliyoruz */,
 				AF7D49A9231EE6B200B53D73 /* Products */,
 				C16ACD5D4362AA61F93C3DAC /* Pods */,
 				35A773C55A5810AD0C481E48 /* Frameworks */,
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF7D49AA231EE6B200B53D73 /* Tweety */ = {
+		AF7D49AA231EE6B200B53D73 /* Tweetliyoruz */ = {
 			isa = PBXGroup;
 			children = (
 				AF7D49C0231EE74C00B53D73 /* Support Files */,
@@ -74,7 +74,7 @@
 				AF7D49BE231EE73E00B53D73 /* View */,
 				AF7D49BD231EE73500B53D73 /* Model */,
 			);
-			path = Tweety;
+			path = Tweetliyoruz;
 			sourceTree = "<group>";
 		};
 		AF7D49BD231EE73500B53D73 /* Model */ = {
@@ -157,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF7D49A3231EE6B200B53D73 /* Build configuration list for PBXProject "Tweety" */;
+			buildConfigurationList = AF7D49A3231EE6B200B53D73 /* Build configuration list for PBXProject "Tweetliyoruz" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -402,7 +402,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9437KP6T5;
-				INFOPLIST_FILE = "$(SRCROOT)/Tweety/Support Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tweetliyoruz/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -421,7 +421,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9437KP6T5;
-				INFOPLIST_FILE = "$(SRCROOT)/Tweety/Support Files/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Tweetliyoruz/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +436,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF7D49A3231EE6B200B53D73 /* Build configuration list for PBXProject "Tweety" */ = {
+		AF7D49A3231EE6B200B53D73 /* Build configuration list for PBXProject "Tweetliyoruz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF7D49B8231EE6B400B53D73 /* Debug */,

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "AF7D49A7231EE6B200B53D73"
                BuildableName = "Tweetliyoruz.app"
                BlueprintName = "Tweetliyoruz"
-               ReferencedContainer = "container:Tweety.xcodeproj">
+               ReferencedContainer = "container:Tweetliyoruz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "AF7D49A7231EE6B200B53D73"
             BuildableName = "Tweetliyoruz.app"
             BlueprintName = "Tweetliyoruz"
-            ReferencedContainer = "container:Tweety.xcodeproj">
+            ReferencedContainer = "container:Tweetliyoruz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "AF7D49A7231EE6B200B53D73"
             BuildableName = "Tweetliyoruz.app"
             BlueprintName = "Tweetliyoruz"
-            ReferencedContainer = "container:Tweety.xcodeproj">
+            ReferencedContainer = "container:Tweetliyoruz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -88,7 +88,7 @@
             BlueprintIdentifier = "AF7D49A7231EE6B200B53D73"
             BuildableName = "Tweetliyoruz.app"
             BlueprintName = "Tweetliyoruz"
-            ReferencedContainer = "container:Tweety.xcodeproj">
+            ReferencedContainer = "container:Tweetliyoruz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
